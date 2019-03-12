@@ -70,6 +70,7 @@ a.site-link {
 	font-size: 2em;
 	color: black;
 	text-decoration: none;
+	white-space: nowrap;
 }
 </style>
 

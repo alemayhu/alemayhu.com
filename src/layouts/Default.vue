@@ -13,6 +13,9 @@
 					class="nav__link"
 					to="/contact"
 				>Contact</g-link>
+				<select v-on:change="visitPage" v-model="selectedLink">
+					<option v-for="item in pages" v-bind:value="item.path" v-bind:key="item.path">{{item.name}}</option>
+				</select>
 			</nav>
 		</header>
 		<slot/>
@@ -72,15 +75,32 @@ a.site-link {
 	white-space: nowrap;
 }
 
-@media (min-width: 600px) {
-	a.site-link {
-		font-size: 2em;
-	}
+a.site-link {
+	font-size: 2em;
 }
 
-@media (min-width: 800px) {
+.nav select {
+	display: none;
+}
+
+@media (max-width: 600px) {
 	a.site-link {
-		font-size: 2em;
+		font-size: 1.5rem;
+	}
+
+	.nav {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.nav a {
+		display: none;
+	}
+
+	.nav select {
+		display: inline;
 	}
 }
 
@@ -94,7 +114,18 @@ a.site-link {
 <script>
 export default {
 	data: function() {
-		return { isAbout: true, isApps: false, isContact: false };
+		const pages = [
+			{ name: "About", path: "/about" },
+			{ name: "Apps", path: "/apps" },
+			{ name: "Contact", path: "/contact" }
+		];
+		return {
+			isAbout: true,
+			isApps: false,
+			isContact: false,
+			pages: pages,
+			selectedLink: {}
+		};
 	},
 	mounted: function() {
 		const path = this.$route.path;
@@ -102,6 +133,11 @@ export default {
 		this.isAbout = path.includes("/about");
 		this.isApps = path.includes("/apps");
 		this.isContact = path.includes("/contact");
+	},
+	methods: {
+		visitPage: function() {
+			window.location = this.selectedLink;
+		}
 	}
 };
 </script>

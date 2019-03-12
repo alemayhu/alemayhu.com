@@ -67,10 +67,27 @@ body {
 }
 
 a.site-link {
-	font-size: 2em;
 	color: black;
 	text-decoration: none;
 	white-space: nowrap;
+}
+
+@media (min-width: 600px) {
+	a.site-link {
+		font-size: 2em;
+	}
+}
+
+@media (min-width: 800px) {
+	a.site-link {
+		font-size: 2em;
+	}
+}
+
+@media (min-width: 1000px) {
+	a.site-link {
+		font-size: 2em;
+	}
 }
 </style>
 

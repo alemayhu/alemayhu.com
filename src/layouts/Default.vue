@@ -1,5 +1,6 @@
 <template>
   <div class="layout">
+  <meta name="Description" content="Building macOS apps for fun and profit.">
     <header class="header">
       <strong>
         <g-link class="site-link" to="/">{{ $static.metaData.siteName }}</g-link>

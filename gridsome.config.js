@@ -6,5 +6,6 @@
 
 module.exports = {
   siteName: "Alexander Alemayhu",
-  plugins: []
+  plugins: [],
+  icon: "src/favicon-32x32.png"
 };

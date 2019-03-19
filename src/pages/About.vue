@@ -1,10 +1,12 @@
 <template>
   <Layout>
-    <p>Hei, I am Alexander :)</p>
-    <p>This website is still under construction as you can see.</p>
+    <p>Hei, I am Alexander Alemayhu :)</p>
     <p>
-      I am currently learning a lot about frontend developentment and plan on focusing on developing electron apps.
-      If you are into that kind of stuff, sign up to my
+      During the day I am working as Web Developer but on my own time I am learning about
+      <a
+        href="https://electronjs.org/"
+      >Electron</a>
+      and trying to build amazing things. If you are into that kind of stuff, sign up to my
       <a
         href="http://eepurl.com/gkfZ8v"
       >email list</a>.

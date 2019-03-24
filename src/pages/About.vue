@@ -1,6 +1,6 @@
 <template>
 	<Layout>
-		<p>Hei, I am Alexander Alemayhu :)</p>
+		<p>Hei, I am Alexander Alemayhu 😊</p>
 		<p>
 			I started out learning about programming in order to make video games but left
 			that in order to make a living on iOS applications. I've also dabbled in Android,

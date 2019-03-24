@@ -5,7 +5,7 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: "Alexander Alemayhu",
+  siteName: "Alemayhu",
   plugins: [],
   icon: "src/favicon-32x32.png"
 };

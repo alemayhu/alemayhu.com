@@ -13,6 +13,11 @@
 			>Electron</a>
 			and trying to build amazing things.
 		</p>
+		<p>I speak English, Norwegian and German. I am currently learning Japanese.</p>
+		<p>
+			If you are into static sites, this page is built with
+			<a href="https://gridsome.org/">Gridsome</a>.
+		</p>
 	</Layout>
 </template>
 

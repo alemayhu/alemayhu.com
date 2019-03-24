@@ -1,31 +1,52 @@
 <template>
-  <Layout>
-    <h2>
-      <p>
-        <span class="contact-link-label">Email&nbsp</span>
-        <a class="contact-link" href="mailto:alexander@alemayhu.com">alexander@alemayhu.com</a>
-      </p>
-      <p>
-        <span class="contact-link-label">Phone&nbsp</span>
-        <a class="contact-link" href="tel:+4740104387">＋４７４０１０４３８７</a>
-      </p>
-    </h2>
-  </Layout>
+	<Layout>
+		<h2>
+			<p v-for="link in fields" v-bind:key="link.title">
+				<span class="contact-link-label">{{link.title}}&nbsp</span>
+				<a class="contact-link" href="{link.href}">{{link.value}}</a>
+			</p>
+		</h2>
+	</Layout>
 </template>
 
 <script>
 export default {
-  metaInfo: {
-    title: "About us"
-  }
+	data: function() {
+		const fields = [
+			{
+				title: "Email",
+				value: "alexander@alemayhu.com",
+				href: "mailto:alexander@alemayhu.com"
+			},
+			{
+				title: "Phone",
+				value: "＋４７４０１０４３８７",
+				href: "tel:+4740104387"
+			},
+			{
+				title: "Twitter",
+				value: "@aalemayhu",
+				href: "https://twitter.com/AAlemayhu"
+			},
+			{
+				title: "GitHub",
+				value: "scanf",
+				href: "https://github.com/scanf"
+			}
+		];
+		return { fields: fields };
+	},
+	metaInfo: {
+		title: "About us"
+	}
 };
 </script>
 
 <style>
 .contact-link-label {
-  color: gray;
+	color: gray;
 }
 .contact-link {
-  color: black;
+	color: black;
 }
 </style>

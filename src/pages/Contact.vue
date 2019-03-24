@@ -3,7 +3,7 @@
 		<h2>
 			<p v-for="link in fields" v-bind:key="link.title">
 				<span class="contact-link-label">{{link.title}}&nbsp</span>
-				<a class="contact-link" href="{link.href}">{{link.value}}</a>
+				<a class="contact-link" :href="link.href">{{link.value}}</a>
 			</p>
 		</h2>
 	</Layout>

@@ -55,7 +55,7 @@ body {
 }
 
 .active-link {
-	border-bottom: 0.4px solid black;
+	border-top: 1.6px solid black;
 	margin-left: 20px;
 	font-weight: bold;
 	color: black;
@@ -67,6 +67,10 @@ body {
 	font-weight: bold;
 	color: black;
 	text-decoration: none;
+}
+
+.nav-link:hover {
+	border-top: 1.6px solid black;
 }
 
 a.site-link {

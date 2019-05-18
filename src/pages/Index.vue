@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <p>This page is still under construction.</p>
+    <meta http-equiv="Refresh" content="0; url=https://deno.land/" />
   </Layout>
 </template>
 

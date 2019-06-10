@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <meta http-equiv="Refresh" content="0; url=https://deno.land/" />
+    <meta http-equiv="Refresh" content="0; url=https://vuepress.vuejs.org/" />
   </Layout>
 </template>
 

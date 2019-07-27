@@ -1,27 +1,12 @@
 {
   "name": "alemayhu.com",
-  "version": "0.1.0",
-  "author": "Alexander Alemayhu",
   "private": true,
-  "main": "./index.js",
   "scripts": {
-    "start": "webpack-dev-server --mode=development --content-base dist/",
-    "build": "webpack --mode=production",
-    "watch": "webpack --watch --progress --colors --display-modules"
-  },
-  "license": "MIT",
-  "devDependencies": {
-    "node-sass": "^4.10.0",
-    "css-loader": "^1.0.1",
-    "sass-loader": "^7.1.0",
-    "extract-text-webpack-plugin": "^4.0.0-beta.0",
-    "webpack": "^4.26.0",
-    "webpack-cli": "^3.1.2",
-    "webpack-dev-server": "^3.1.10",
-    "style-loader": "^0.23.1",
-    "normalize-scss": "^7.0.1"
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore"
   },
   "dependencies": {
-    "imba": "1.4.1"
+    "gridsome": "^0.5.0"
   }
 }

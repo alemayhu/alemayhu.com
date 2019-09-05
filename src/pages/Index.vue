@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <meta http-equiv="Refresh" content="0; url=https://vuepress.vuejs.org/" />
+    <meta http-equiv="Refresh" content="0; url=http://imba.io/" />
   </Layout>
 </template>
 

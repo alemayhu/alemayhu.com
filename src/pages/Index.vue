@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <meta http-equiv="Refresh" content="0; url=http://imba.io/" />
+  <p>This site is still under construction</p>
   </Layout>
 </template>
 

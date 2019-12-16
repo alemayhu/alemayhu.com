@@ -14,16 +14,15 @@
 			and trying to build amazing things.
 		</p>
 		<p>I speak English, Norwegian and German. I am currently learning Japanese.</p>
-		<p>
-			If you are into static sites, this page is built with
-			<a href="https://gridsome.org/">Gridsome</a>.
-		</p>
-		<h2>
+		<h2>Contact Me</h2>
+		<p>The preferred way to reach me is over <strong>e-mail</strong> but for
+		convenience I have added several methods below:</p>
+		<h3>
 			<p v-for="link in fields" v-bind:key="link.title">
 				<span class="contact-link-label">{{link.title}}&nbsp</span>
 				<a class="contact-link" :href="link.href">{{link.value}}</a>
 			</p>
-		</h2>
+		</h3>
 	</Layout>
 </template>
 

@@ -69,7 +69,6 @@ footer a {
 }
 
 .active-link {
-	border-top: 1.6px solid black;
 	margin-left: 20px;
 	font-weight: bold;
 	color: black;
@@ -84,7 +83,7 @@ footer a {
 }
 
 .nav-link:hover {
-	border-top: 1.6px solid black;
+	color: gray;
 }
 
 a.site-link {

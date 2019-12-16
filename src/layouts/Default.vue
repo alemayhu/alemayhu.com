@@ -124,7 +124,7 @@ a.site-link {
 	}
 
 	footer {
-		display: hidden;
+		display: none;
 	}
 }
 

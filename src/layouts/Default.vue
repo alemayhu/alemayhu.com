@@ -1,13 +1,13 @@
 <template>
 	<div class="layout">
 		<header class="header">
-			<meta name="Description" content="Building macOS apps for fun and profit.">
+			<meta name="Description" content="Products | alemayhu.com">
 			<strong>
 				<g-link class="site-link" to="/">{{ $static.metaData.siteName }}</g-link>
 			</strong>
 			<nav class="nav">
 				<g-link v-bind:class="[isAbout ? 'active-link' : 'nav-link']" to="/about">About</g-link>
-				<g-link v-bind:class="[isApps ? 'active-link' : 'nav-link']" class="nav__link" to="/apps">Apps</g-link>
+				<g-link v-bind:class="[isProducts ? 'active-link' : 'nav-link']" class="nav__link" to="/products">Products</g-link>
 				<select v-on:change="visitPage" v-model="selectedLink">
 					<option v-for="item in pages" v-bind:value="item.path" v-bind:key="item.path">{{item.name}}</option>
 				</select>
@@ -138,11 +138,11 @@ export default {
 		const pages = [
 			{ name: "Home", path: "/" },
 			{ name: "About", path: "/about" },
-			{ name: "Apps", path: "/apps" },
+			{ name: "Products", path: "/products" },
 		];
 		return {
 			isAbout: true,
-			isApps: false,
+			isProducts: false,
 			isHome: false,
 			pages: pages,
 			selectedLink: {}
@@ -151,7 +151,7 @@ export default {
 	mounted: function() {
 		const path = this.$route.path;
 		this.isAbout = path.includes("/about");
-		this.isApps = path.includes("/apps");
+		this.isProducts = path.includes("/products");
 		this.isHome = path.includes("/");
 		this.selectedLink = path;
 	},

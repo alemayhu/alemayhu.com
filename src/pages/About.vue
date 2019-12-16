@@ -1,17 +1,16 @@
 <template>
 	<Layout>
-		<p>Hei, I am Alexander Alemayhu 😊</p>
+		<p>Hei, I am Alexander Alemayhu. I live in Norway, Oslo.</p>
 		<p>
-			I started out learning about programming in order to make video games but left
-			that in order to make a living on iOS applications. I've also dabbled in Android,
-			Linux Networking, sysadmin stuff and security.
+		I have been programming for about 10 years.  I started out
+learning Python before moving on to C++ in to make video games but left that in
+order to make a living with iOS applications. I've also dabbled in Android,
+Linux Networking, sysadmin stuff and security.
 		</p>
 		<p>
-			Now a days I work as Web Developer but on my own time I am learning about
-			<a
-				href="https://electronjs.org/"
-			>Electron</a>
-			and trying to build amazing things.
+			Now a days I work as Web Developer but on my own time I
+am learning about Web Design, teaching, Rust and Imba.  My dream is to build
+amazing things that provide people with value.
 		</p>
 		<p>I speak English, Norwegian and German. I am currently learning Japanese.</p>
 		<h2>Contact Me</h2>
@@ -29,7 +28,7 @@
 <script>
 export default {
 	metaInfo: {
-		title: "About us"
+		title: "About Me | Alexander Alemayhu"
 	},
 	data: function() {
 		const fields = [

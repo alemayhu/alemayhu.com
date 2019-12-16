@@ -117,28 +117,29 @@ a.site-link {
 export default {
 	data: function() {
 		const pages = [
+			{ name: "Home", path: "/" },
 			{ name: "About", path: "/about" },
 			{ name: "Apps", path: "/apps" },
-			{ name: "Contact", path: "/contact" }
 		];
 		return {
 			isAbout: true,
 			isApps: false,
-			isContact: false,
+			isHome: false,
 			pages: pages,
 			selectedLink: {}
 		};
 	},
 	mounted: function() {
 		const path = this.$route.path;
-
 		this.isAbout = path.includes("/about");
 		this.isApps = path.includes("/apps");
-		this.isContact = path.includes("/contact");
+		this.isHome = path.includes("/");
+		this.selectedLink = path;
 	},
 	methods: {
 		visitPage: function() {
-			window.location = this.selectedLink;
+		console.log(this.selectedLink)
+			this.$router.push({path: this.selectedLink})
 		}
 	}
 };

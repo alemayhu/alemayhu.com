@@ -8,11 +8,6 @@
 			<nav class="nav">
 				<g-link v-bind:class="[isAbout ? 'active-link' : 'nav-link']" to="/about">About</g-link>
 				<g-link v-bind:class="[isApps ? 'active-link' : 'nav-link']" class="nav__link" to="/apps">Apps</g-link>
-				<g-link
-					v-bind:class="[isContact ? 'active-link' : 'nav-link']"
-					class="nav__link"
-					to="/contact"
-				>Contact</g-link>
 				<select v-on:change="visitPage" v-model="selectedLink">
 					<option v-for="item in pages" v-bind:value="item.path" v-bind:key="item.path">{{item.name}}</option>
 				</select>
@@ -148,3 +143,12 @@ export default {
 	}
 };
 </script>
+
+<style>
+.contact-link-label {
+       color: gray;
+}
+.contact-link {
+       color: black;
+}
+</style>

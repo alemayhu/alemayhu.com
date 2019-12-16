@@ -14,6 +14,9 @@
 			</nav>
 		</header>
 		<slot/>
+		<footer>
+			© Alexander Alemayhu<br> 
+		</footer>
 	</div>
 </template>
 
@@ -47,6 +50,22 @@ body {
 	align-items: center;
 	margin-bottom: 20px;
 	height: 80px;
+}
+
+footer  {
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    left: 0;
+    color: black;
+    padding: 1rem;
+    margin: 0 1rem 0 0;
+	    text-align: center;
+}
+
+footer a {
+	color: white;
+        text-decoration: none;
 }
 
 .active-link {

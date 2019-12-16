@@ -122,6 +122,10 @@ a.site-link {
 	.nav select {
 		display: inline;
 	}
+
+	footer {
+		display: hidden;
+	}
 }
 
 @media (min-width: 1000px) {

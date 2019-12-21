@@ -6,4 +6,9 @@ import DefaultLayout from '~/layouts/Default.vue'
 export default function (Vue, { router, head, isClient }) {
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout)
+
+  head.script.push({
+    src: "https://apis.google.com/js/platform.js",
+    body: true
+  })
 }

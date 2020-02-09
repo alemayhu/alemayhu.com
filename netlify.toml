@@ -1,2 +1,3 @@
 [build]
   publish = "dist"
+  commaond = "echo 0"

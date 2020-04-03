@@ -24,14 +24,14 @@ tag alemayhu-app
 							"Feel free to email me at "
 							<a href="mailto:alexander@alemayhu.com"> "alexander@alemayhu.com"
 							"."
-            ### css scoped
-            .footer {
-                position: absolute;
-                bottom: 0;
-                width: 100%;
-                padding-top: 0.5rem;
-                padding-bottom: 0.5rem;            
-            }
+			### css scoped
+			.footer {
+				position: absolute;
+				bottom: 0;
+				width: 100%;
+				padding-top: 0.5rem;
+				padding-bottom: 0.5rem;            
+			}
             ###
 			<footer .footer>			
 				<div .level> 

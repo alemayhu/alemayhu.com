@@ -1,3 +1,9 @@
+### css
+body {
+	background: linear-gradient(rgb(85, 151, 245),white);
+	height: 100vh;
+}
+###
 tag alemayhu-app
 
 	def render
@@ -18,27 +24,42 @@ tag alemayhu-app
 							<a href="https://github.com/scanf"> "GitHub"						
 							" and "
 							<a href="https://alemayhu.com/subscribe"> "YouTube"
-							"."
-						<p .subtitle> "This site is still under construction more changes are coming 😉"							
+							". "
+							"This site is still under construction more changes are coming 😉"							
 						<p .subtitle>
 							"Feel free to email me at "
 							<a href="mailto:alexander@alemayhu.com"> "alexander@alemayhu.com"
 							"."
 			### css scoped
+			h1, p, a {
+				color: white;
+			}
+			a {
+				border-bottom: 1px solid lightgray;
+				padding: 0 0.1rem;
+			}
+			a:hover {
+				background: lightgray;
+				padding: 0 0.1rem;
+			}
 			.footer {
 				position: absolute;
 				bottom: 0;
 				width: 100%;
 				padding-top: 0.5rem;
 				padding-bottom: 0.5rem;            
+				color: gray;
+			}			
+			.footer * {
+				color: gray;
 			}
             ###
 			<footer .footer>			
 				<div .level> 
 					<div .level-left> "© 2020 Alexander Alemayhu"
 					<div .level-right>
-						<p>
+						<p .tools>
 							"Made with "
-							<a href="https://imba.io"> "Imba "
+							<a .imba-link href="https://imba.io"> "Imba "
 							"and "
-							<a href="https://bulma.io"> "Bulma"
+							<a .bulma-link href="https://bulma.io"> "Bulma"

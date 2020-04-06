@@ -12,7 +12,7 @@ tag alemayhu-app
 				<div .container>
 					<div .columns>
 					<div .column>
-						<h1 .title> "Hei, I'm Alexander"
+						<h1 .title .is-1> "Hei, I'm Alexander"
 					<div .column>
 						<p .subtitle> 
 							"I'm a developer living in Norway and work at "

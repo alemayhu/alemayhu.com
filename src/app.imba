@@ -59,8 +59,6 @@ tag alemayhu-app
 				padding: 0 0.1rem;
 			}
 			.footer {
-				position: absolute;
-				bottom: 0;
 				width: 100%;
 				padding-top: 0.5rem;
 				padding-bottom: 0.5rem;            

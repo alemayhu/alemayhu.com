@@ -25,8 +25,7 @@ tag alemayhu-app
 								"I'm a developer living in Norway and work at "
 								<a href="https://scrimba.com"> "Scrimba"
 								"."
-							<p .subtitle>
-								"I love learning new things especially spoken and programming languages. "
+								"I love learning new things especially about spoken and programming languages. "
 							<p .subtitle .picture-ref>
 								"More recently I have discovered the joy of running 🏃‍♀️ "
 								"The picture is from a fun workout with "

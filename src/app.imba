@@ -3,33 +3,50 @@ body {
 	background: linear-gradient(rgb(85, 151, 245),white);
 	height: 100vh;
 }
+@media (max-width: 800px) { 
+	.image-column, .picture-ref {
+		display: none;
+	}
+ }
 ###
 tag alemayhu-app
 
 	def render
 		<self>
+			<header .header .container>
 			<section .section>
 				<div .container>
+					<h1 .title .is-1> "Hei, I'm Alexander"
 					<div .columns>
-					<div .column>
-						<h1 .title .is-1> "Hei, I'm Alexander"
-					<div .column>
-						<p .subtitle> 
-							"I'm a developer living in Norway and work at "
-							<a href="https://scrimba.com"> "Scrimba"
-							"."
-							"You can follow me on "
-							<a href="https://dev.to/scanf"> "DEV"
-							", "						
-							<a href="https://github.com/scanf"> "GitHub"						
-							" and "
-							<a href="https://alemayhu.com/subscribe"> "YouTube"
-							". "
-							"This site is still under construction more changes are coming 😉"							
-						<p .subtitle>
-							"Feel free to email me at "
-							<a href="mailto:alexander@alemayhu.com"> "alexander@alemayhu.com"
-							"."
+						<div .column .image-column>
+							<img .image src="assets/portrait.jpeg">
+						<div .column>
+							<p .subtitle> 
+								"I'm a developer living in Norway and work at "
+								<a href="https://scrimba.com"> "Scrimba"
+								"."
+							<p .subtitle>
+								"I love learning new things especially spoken and programming languages. "
+							<p .subtitle .picture-ref>
+								"More recently I have discovered the joy of running 🏃‍♀️ "
+								"The picture is from a fun workout with "
+								<a href="https://www.instagram.com/trappefolket/?hl=nb"> "Trappefolket"
+								"😁"
+							<p .subtitle>
+								"I enjoy live streaming coding projects on my YouTube Channel "							
+								<a href="https://www.youtube.com/channel/UCumJa0eRO9_xtEsoAt3UCkQ"> "WeCode"
+								". You should check it out 😉"							
+								"You can also find me on "
+								<a href="https://dev.to/scanf"> "DEV"
+								", "						
+								<a href="https://github.com/scanf"> "GitHub"						
+								" and "
+								<a href="https://instagram.com/alexanderalemayhu"> "Instagram"
+								". "
+							<p .subtitle>
+								"Feel free to email me at "
+								<a href="mailto:alexander@alemayhu.com"> "alexander@alemayhu.com"
+								"."
 			### css scoped
 			h1, p, a {
 				color: white;

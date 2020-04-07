@@ -2,7 +2,7 @@ import {THE_MESSAGE} from './message'
 
 ### css
 body {
-	background: linear-gradient(rgb(85, 151, 245),white);
+	background: rgb(85, 151, 245;
 	height: 100vh;
 }
 @media (max-width: 800px) { 

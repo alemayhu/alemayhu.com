@@ -1,3 +1,5 @@
+import {THE_MESSAGE} from './message'
+
 ### css
 body {
 	background: linear-gradient(rgb(85, 151, 245),white);
@@ -10,6 +12,9 @@ body {
  }
 ###
 tag alemayhu-app
+
+	def mount
+		console.log(THE_MESSAGE)
 
 	def render
 		<self>

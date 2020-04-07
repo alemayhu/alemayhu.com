@@ -19,7 +19,7 @@ tag alemayhu-app
 					<h1 .title .is-1> "Hei, I'm Alexander"
 					<div .columns>
 						<div .column .image-column>
-							<img .image src="assets/portrait.jpeg">
+							<img .image src="/assets/portrait.jpeg">
 						<div .column>
 							<p .subtitle> 
 								"I'm a developer living in Norway and work at "

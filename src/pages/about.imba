@@ -17,8 +17,6 @@ tag about-page
 					"Now a days I work as Web Developer but on my own time I am learning about Web Design, teaching, Deno, Rust and Imba. "
 				<p .subtitle>					
 					"My dream is to build amazing things that provide value to many people."
-		<section .section>
-			<div .container>
 				<div .columns>
 					<div .column .image-column>
 						<img .image src="/assets/portrait.jpeg">

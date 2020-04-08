@@ -10,4 +10,4 @@ tag home-page
 	}
 	###
 	<self>
-		<iframe src="https://scanf.alemayhu.com">
+		<iframe src="//scanf.alemayhu.com">

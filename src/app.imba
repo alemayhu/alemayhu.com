@@ -43,19 +43,31 @@ tag alemayhu-app
 		else
 			<home-page>
 
+	def clickedMenuItem e
+		self.isActive = !self.isActive
+		console.log(self.isActive)
+		console.log('e', e)
+		e.preventDefault()
+
 	def render
 		<self>
-			<header .header>
-				<nav .navbar .container>
+			<header .header>		
+
+				<nav .navbar .container .is-fixed-top>
 					<div .navbar-brand>
 						<a .navbar-item href="/"> "Alemayhu"
-					<div .is-pulled-right>
-						if window.location.pathname != '/'
+						<div role="button" .navbar-burger aria-label="menu" aria-expanded="false" :click.clickedMenuItem($)>
+							<span aria-hidden="true">
+							<span aria-hidden="true">
+							<span aria-hidden="true">
+					<div .navbar-menu .is-active=isActive>
+						<div .navbar-end>
+							if window.location.pathname != '/'
+								<div .navbar-item>
+									<a .navbar-item href="/"> "Home"
 							<div .navbar-item>
-								<a .navbar-item href="/"> "Home"
-						<div .navbar-item>
-							<a .navbar-item href="/about"> "About"
-						<div .navbar-item>
-							<a .navbar-item href="/contact"> "Contact"
+								<a .navbar-item href="/about"> "About"
+							<div .navbar-item>
+								<a .navbar-item href="/contact"> "Contact"
 			currentPage!
 			<the-footer>

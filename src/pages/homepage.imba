@@ -10,4 +10,4 @@ tag home-page
 	}
 	###
 	<self>
-		<iframe src="//scanf.alemayhu.com">
+		<iframe sandbox="allow-same-origin allow-scripts allow-popups allow-forms" src="//scanf.alemayhu.com">

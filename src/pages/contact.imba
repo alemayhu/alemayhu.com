@@ -12,10 +12,10 @@ tag contact-page
 		<self>
 			<section .section>
 				<div .container>
-					<h2 .title .is-2 .has-text-white> "Contact Me"
+					<h2 .title .is-2> "Contact Me"
 					<hr>
-					<p .subtitle .has-text-white> "The preferred way to reach me is over e-mail but for convenience I have added several methods below:"
+					<p .subtitle> "The preferred way to reach me is over e-mail but for convenience I have added several methods below:"
 					for field in fields
-						<p .has-text-white .subtitle>
+						<p .subtitle>
 							field.title + " "
 							<a .the-link href=field.href>  field.value							

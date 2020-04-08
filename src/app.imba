@@ -51,23 +51,18 @@ tag alemayhu-app
 
 	def render
 		<self>
-			<header .header>		
-
-				<nav .navbar .container .is-fixed-top>
-					<div .navbar-brand>
-						<a .navbar-item href="/"> "Alemayhu"
-						<div role="button" .navbar-burger aria-label="menu" aria-expanded="false" :click.clickedMenuItem($)>
-							<span aria-hidden="true">
-							<span aria-hidden="true">
-							<span aria-hidden="true">
-					<div .navbar-menu .is-active=isActive>
-						<div .navbar-end>
-							if window.location.pathname != '/'
-								<div .navbar-item>
-									<a .navbar-item href="/"> "Home"
-							<div .navbar-item>
-								<a .navbar-item href="/about"> "About"
-							<div .navbar-item>
-								<a .navbar-item href="/contact"> "Contact"
+			<nav .navbar .container .is-fixed-top>
+				<div .navbar-brand>
+					<a .navbar-item href="/"> "Alemayhu"
+					<div role="button" .navbar-burger aria-label="menu" aria-expanded="false" :click.clickedMenuItem($)>
+						<span aria-hidden="true">
+						<span aria-hidden="true">
+						<span aria-hidden="true">
+				<div .navbar-menu .is-active=isActive>
+					<div .navbar-end>
+						if window.location.pathname != '/'
+							<a .navbar-item href="/"> "Home"
+						<a .navbar-item href="/about"> "About"
+						<a .navbar-item href="/contact"> "Contact"
 			currentPage!
 			<the-footer>

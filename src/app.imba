@@ -1,6 +1,8 @@
 import {THE_MESSAGE} from './message'
 
 import './pages/homepage'
+import './pages/about'
+import './pages/contact'
 
 import './components/footer'
 
@@ -21,6 +23,7 @@ body {
 a.the-link {
 	border-bottom: 1px solid lightgray;
 	padding: 0 0.1rem;
+	color: white;
 }
 a.the-link:hover {
 	background: lightgray;
@@ -32,6 +35,15 @@ tag alemayhu-app
 	def mount
 		console.log(THE_MESSAGE)
 
+	def currentPage
+		const pathname = window.location.pathname
+		if pathname == '/contact'
+			<contact-page>
+		elif pathname == '/about'
+			<about-page>
+		else
+			<home-page>
+
 	def render
 		<self>
 			<header .header>
@@ -42,5 +54,5 @@ tag alemayhu-app
 						<a .navbar-item href="/about"> "About"
 					<div .navbar-item>
 						<a .navbar-item href="/contact"> "Contact"
-			<home-page>
-			<the-footer>		
+			currentPage!
+			<the-footer>

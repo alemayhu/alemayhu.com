@@ -11,7 +11,12 @@ import './components/footer'
 	background: rgb(85, 151, 245);
 }
 body {
+	flex-direction: column;
+	display: flex;
 	height: 100vh;
+}
+.section {
+	flex: 1;
 }
 @media (max-width: 800px) { 
 	.image-column, .picture-ref {

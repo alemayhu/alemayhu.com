@@ -4,8 +4,6 @@
 		padding-top: 0.5rem;
 		padding-bottom: 0.5rem;            
 		color: gray;
-		position: absolute;
-		bottom: 0;
 	}			
 	.footer * {
 		color: gray;

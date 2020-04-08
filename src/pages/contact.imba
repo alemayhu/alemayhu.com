@@ -18,4 +18,5 @@ tag contact-page
 					for field in fields
 						<p .subtitle>
 							field.title + " "
-							<a .the-link href=field.href>  field.value							
+							<a .the-link href=field.href>  field.value
+					<p .notification .is-warning> "Please note that I am not interested in consulting gigs or job offers."

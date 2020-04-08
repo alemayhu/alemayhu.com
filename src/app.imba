@@ -49,7 +49,7 @@ tag alemayhu-app
 			<header .header>
 				<nav .navbar>
 					<div .navbar-brand .container>
-						<a .navbar-item href="https://alemayhu.com/"> "Alemayhu"
+						<a .navbar-item href="/"> "Alemayhu"
 					<div .navbar-item>
 						<a .navbar-item href="/about"> "About"
 					<div .navbar-item>

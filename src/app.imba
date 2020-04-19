@@ -3,6 +3,7 @@ import {THE_MESSAGE} from './message'
 import './pages/homepage'
 import './pages/about'
 import './pages/contact'
+import './pages/newsletter-signup'
 
 import './components/footer'
 
@@ -45,6 +46,8 @@ tag alemayhu-app
 			<contact-page>
 		elif pathname == '/about'
 			<about-page>
+		elif pathname == '/newsletter-signup'
+			<newsletter-signup-page>
 		else
 			<home-page>
 

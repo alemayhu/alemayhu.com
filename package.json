@@ -5,7 +5,7 @@
   "repository": "git@gitlab.com:scanf/alemayhu.com.git",
   "author": "Alexander Alemayhu <alexander@alemayhu.com>",
   "dependencies": {
-    "imba": "^2.0.0-alpha.41",
+    "imba": "^2.0.0-alpha.45",
     "imba-rollup": "^2.0.0-alpha.31"
   },
   "scripts": {

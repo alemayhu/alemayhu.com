@@ -15,7 +15,7 @@ tag home-page
 
 	css body fld: column d: flex h: 100vh ff: Baloo 2, BlinkMacSystemFont, Helvetica Neue, Helvetica
 
-	css a bdm: 1px solid lightgray @hover:lightgray p: 0 0.1rem td: underline
+	css a c: blue400 bdm: 1px solid lightgray @hover:lightgray p: 0 0.1rem td: underline
 
 	css .blue-background b: rgb(85, 151, 245)
 	css .image br: 0.3rem
@@ -34,17 +34,17 @@ tag home-page
 					"I started out learning HTML / Python before moving on to C++ in order to make video games but left that to make a living with iOS applications. "
 					"I've also dabbled in Android, Linux Networking, sysadmin stuff and security. "
 				<p>					
-					"Now a days I work as Web Developer but on my own time I am learning about web design, teaching, Imba and running. "
+					"Now a days I work as Web Developer but on my own time I am learning about web design, teaching, Imba and running."
 				<div[d: flex m: -.75rem fld: column @sm: row  max-width: 640px @md: 768px @lg: 960px]>
 					<img[w: 256px h: auto m: 1rem 3rem] .image src="/assets/portrait.jpeg">
 					<div[d: block flb: 0 flg: 1 fls: 1 p: .75rem]>
 						<p>
-							"More recently I have discovered the joy of running 🏃‍♀️ "
+							"You read right, running❣️ More recently I have discovered the joy of running 🏃‍♀️ "
 							"The picture is from a fun workout with "
 							<a href="https://www.instagram.com/trappefolket/?hl=nb"> "Trappefolket"
 							"😁"
 						<p>
-							"I enjoy live streaming coding projects on my Twitch Channel {<a href="https://www.twitch.tv/ccscanf"> "ccscanf"}."							
+							"I enjoy live streaming open sources projects on my Twitch Channel {<a[bg: purple c: white br: 0.3rem p: 1 3 td: none] href="https://www.twitch.tv/ccscanf"> "ccscanf"}."							
 							"You should check it out 😉"							
 						<p[mb: 0]> "You can also find me on "
 						<ul[mt: 0 list-style: square]>

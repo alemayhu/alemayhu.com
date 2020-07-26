@@ -54,7 +54,7 @@ tag home-page
 							<li> <a href="https://github.com/scanf"> "GitHub"						
 			<section>
 				<div>
-					<h2> "Passion Projects"
+					<h2> "🕺🏾Passion Projects"
 					<p>
 						"My coach is training me to run a 10K under 40 minutes. So dreaming about doing a sub40 10k before Christmas hopefully 😅"
 					<p>
@@ -65,7 +65,7 @@ tag home-page
 						<a.n2a href="https://notion.2anki.net"> "notion2Anki"
 			<section[mt: 2rem @md: 1rem]>
 				<div>
-					<h2[mt: 0]> "Support Me"
+					<h2[mt: 0]> "🎗Support Me"
 					<p> "If you like any of my projects you can support me financially on Patreon and / or GitHub."
 					<.has-text-centered>
 						<a href="https://patreon.com/ccscanf"> <img src="become_a_patron_button.png">
@@ -75,7 +75,7 @@ tag home-page
 							<a[td: none p: 2 bg: #fafbfc border-color: rgba(27,31,35,.15) br: 6px bd: rgba(27, 31, 35, 0.15)] href=github_sponsor> "❤️ Become a GitHub Sponsor"
 			<section>
 				<div>
-					<h2[mt: 0]> "Contact Me"
+					<h2[mt: 0]> "📧 Contact Me"
 					<hr>
 					<p[pt: 0]> "The preferred way to reach me is over e-mail but for convenience I have added several methods below:"
 					for field in fields

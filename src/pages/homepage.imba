@@ -62,7 +62,7 @@ tag home-page
 			<section>
 				<div>
 					<h2[mt: 0]> "Support Me"
-					<p> "If you like any of my projects you can support me financially on GitHub and / or Patreon."
+					<p> "If you like any of my projects you can support me financially on Patreon and / or GitHub."
 					<.has-text-centered>
 						<a href="https://patreon.com/ccscanf"> <img src="become_a_patron_button.png">
 					<div[mt: 2]>

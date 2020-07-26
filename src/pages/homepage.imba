@@ -20,6 +20,8 @@ tag home-page
 	css .image br: 0.3rem
 	css .n2a fs: xl fw: bold ls: -0.025rem m: 0.0 p: 0.2rem 1rem c: #1E1D1C bg: #FCF4A7 @hover: green400 td: none 
 
+	prop github_sponsor = 'https://github.com/sponsors/alemayhu/card'
+
 	<self>
 		<section>
 			<div>
@@ -50,10 +52,9 @@ tag home-page
 						<ul[mt: 0 list-style: square]>
 							<li> <a href="https://dev.to/scanf"> "DEV"
 							<li> <a href="https://github.com/scanf"> "GitHub"						
-							<li> <a href="https://instagram.com/alexanderalemayhu"> "Instagram"
 			<section>
 				<div>
-					<h2> "Current Projects"
+					<h2> "Passion Projects"
 					<p>
 						"My coach is training me to run a 10K under 40 minutes. So dreaming about doing a sub40 10k before Christmas hopefully 😅"
 					<p>
@@ -62,19 +63,21 @@ tag home-page
 						"My most popular project used by medicine students worldwide is:"
 					<div[d: flex j: center]>
 						<a.n2a href="https://notion.2anki.net"> "notion2Anki"
-			<section>
+			<section[mt: 2rem @md: 1rem]>
 				<div>
 					<h2[mt: 0]> "Support Me"
 					<p> "If you like any of my projects you can support me financially on Patreon and / or GitHub."
 					<.has-text-centered>
 						<a href="https://patreon.com/ccscanf"> <img src="become_a_patron_button.png">
-					<div[mt: 2]>
-						<iframe src="https://github.com/sponsors/alemayhu/card" title="Sponsor alemayhu" height="225" width="600" style="border: 0;">                            
+					<div[my: 2]>
+						<iframe[d: none @sm: block] src=github_sponsor title="Sponsor alemayhu" height="225" width="600" style="border: 0;">                            
+						<div[mb: 2rem d: inline-block @sm: none]>
+							<a[td: none p: 2 bg: #fafbfc border-color: rgba(27,31,35,.15) br: 6px bd: rgba(27, 31, 35, 0.15)] href=github_sponsor> "❤️ Become a GitHub Sponsor"
 			<section>
 				<div>
 					<h2[mt: 0]> "Contact Me"
 					<hr>
-					<p> "The preferred way to reach me is over e-mail but for convenience I have added several methods below:"
+					<p[pt: 0]> "The preferred way to reach me is over e-mail but for convenience I have added several methods below:"
 					for field in fields
 						<p>
 							field.title + " "

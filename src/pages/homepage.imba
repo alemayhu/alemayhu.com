@@ -18,7 +18,7 @@ tag home-page
 
 	css .blue-background b: rgb(85, 151, 245)
 	css .image br: 0.3rem
-	css .n2a fw: bold ls: -0.025rem m: 0.0 p: 0.2rem 1rem c: #1E1D1C bg: #FCF4A7 @hover: green400 td: none
+	css .n2a fs: xl fw: bold ls: -0.025rem m: 0.0 p: 0.2rem 1rem c: #1E1D1C bg: #FCF4A7 @hover: green400 td: none 
 
 	<self>
 		<section>
@@ -55,10 +55,13 @@ tag home-page
 				<div>
 					<h2> "Current Projects"
 					<p>
-						"For my coding projects, I am spending a lot of time helping out students to create flashcards better and easier with Anki. "
-						"My most popular project used by medicine students worldwide is {<a.n2a href="https://notion.2anki.net"> "notion2Anki"}"
+						"My coach is training me to run a 10K under 40 minutes. So dreaming about doing a sub40 10k before Christmas hopefully 😅"
 					<p>
-						"My coach is training me to run a 10K under 40 minutes. So dreaming about doing a sub40 10k before Christmas hopefully 😅"			
+						"For my coding projects, I am spending a lot of time helping out students to create flashcards better and easier with Anki. "
+						"It's really important for me that these tools are affordable to students, so I make them 100% free. No cost to usage for anyone anywhere in the world! "
+						"My most popular project used by medicine students worldwide is:"
+					<div[d: flex j: center]>
+						<a.n2a href="https://notion.2anki.net"> "notion2Anki"
 			<section>
 				<div>
 					<h2[mt: 0]> "Support Me"

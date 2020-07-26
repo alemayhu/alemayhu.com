@@ -38,7 +38,7 @@ tag home-page
 				<p>					
 					"Now a days I work as Web Developer but on my own time I am learning about web design, teaching, Imba and running."
 				<div[d: flex m: -.75rem fld: column @sm: row  max-width: 640px @md: 768px @lg: 960px]>
-					<img[w: 256px h: auto m: 1rem 3rem] .image src="/assets/portrait.jpeg">
+					<img[w: 256px h: 341.33px m: 1rem 3rem] .image src="/assets/portrait.jpeg">
 					<div[d: block flb: 0 flg: 1 fls: 1 p: .75rem]>
 						<p>
 							"You read right, running❣️ More recently I have discovered the joy of running 🏃‍♀️ "

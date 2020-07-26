@@ -4,6 +4,4 @@ import './components/footer'
 import './pages/homepage'
 
 tag alemayhu-app
-	<self>
-		<home-page>
-		<the-footer>
+	<self> <home-page> <the-footer>

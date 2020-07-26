@@ -9,7 +9,6 @@ tag home-page
 
 	css h2 w: bold  fs: l @sm: 4xl
 	css h1 c: #363636 fs: 2rem fw: 600 lh: 1.125 fs: xl @sm: 5xl
-	css section p: 3rem 1.5rem flex: 1
 	css div max-width: 960px w: 320px @sm: 960px m: 0 auto
 	css p c: #4a4a4a fs: 1.25rem fwe: 400 lh: 1.25 mb: 1.5rem max-width: 640px @md: 768px @lg: 960px
 
@@ -19,6 +18,7 @@ tag home-page
 
 	css .blue-background b: rgb(85, 151, 245)
 	css .image br: 0.3rem
+	css .n2a fw: bold ls: -0.025rem m: 0.0 p: 0.2rem 1rem c: #1E1D1C bg: #FCF4A7 @hover: green400 td: none
 
 	<self>
 		<section>
@@ -51,6 +51,22 @@ tag home-page
 							<li> <a href="https://dev.to/scanf"> "DEV"
 							<li> <a href="https://github.com/scanf"> "GitHub"						
 							<li> <a href="https://instagram.com/alexanderalemayhu"> "Instagram"
+			<section>
+				<div>
+					<h2> "Current Projects"
+					<p>
+						"For my coding projects, I am spending a lot of time helping out students to create flashcards better and easier with Anki. "
+						"My most popular project used by medicine students worldwide is {<a.n2a href="https://notion.2anki.net"> "notion2Anki"}"
+					<p>
+						"My coach is training me to run a 10K under 40 minutes. So dreaming about doing a sub40 10k before Christmas hopefully 😅"			
+			<section>
+				<div>
+					<h2[mt: 0]> "Support Me"
+					<p> "If you like any of my projects you can support me financially on GitHub and / or Patreon."
+					<.has-text-centered>
+						<a href="https://patreon.com/ccscanf"> <img src="become_a_patron_button.png">
+					<div[mt: 2]>
+						<iframe src="https://github.com/sponsors/alemayhu/card" title="Sponsor alemayhu" height="225" width="600" style="border: 0;">                            
 			<section>
 				<div>
 					<h2[mt: 0]> "Contact Me"

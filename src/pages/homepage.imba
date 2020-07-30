@@ -46,7 +46,7 @@ tag home-page
 							<a href="https://www.instagram.com/trappefolket/?hl=nb"> "Trappefolket"
 							"😁"
 						<p>
-							"I enjoy live streaming open sources projects on my Twitch Channel {<a[bg: purple c: white br: 0.3rem p: 1 3 td: none] href="https://www.twitch.tv/ccscanf"> "ccscanf"}."							
+							"I enjoy live streaming open sources projects on my Twitch Channel {<a[bg: purple c: white br: 0.3rem p: 1 3 td: none] href="https://www.twitch.tv/alemayhu"> "alemayhu"}."							
 							"You should check it out 😉"							
 						<p[mb: 0]> "You can also find me on "
 						<ul[mt: 0 list-style: square]>
@@ -68,7 +68,7 @@ tag home-page
 					<h2[mt: 0]> "🎗Support Me"
 					<p> "If you like any of my projects you can support me financially on Patreon and / or GitHub."
 					<.has-text-centered>
-						<a href="https://patreon.com/ccscanf"> <img src="become_a_patron_button.png">
+						<a href="https://patreon.com/alemayhu"> <img src="become_a_patron_button.png">
 					<div[my: 2]>
 						<iframe[d: none @sm: block] src=github_sponsor title="Sponsor alemayhu" height="225" width="600" style="border: 0;">                            
 						<div[mb: 2rem d: inline-block @sm: none]>

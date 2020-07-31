@@ -31,10 +31,6 @@ tag home-page
 				<p[mt: 0 pt: 0]> "I love learning new things especially about spoken and programming languages. "
 
 				<p> "I have been writing code since 2010 and started working professionally as a developer in 2011."
-				<p[fs: xl @sm: 2xl fw: bold ta: center p: 4rem]> "My dream is to build amazing things that provide value to many people"
-				<p> 
-					"I started out learning HTML / Python before moving on to C++ in order to make video games but left that to make a living with iOS applications. "
-					"I've also dabbled in Android, Linux Networking, sysadmin stuff and security. "
 				<p>					
 					"Now a days I work as Web Developer but on my own time I am learning about web design, teaching, {<a href="https://imba.io"> "Imba"} and running."
 				<div[d: flex m: -.75rem fld: column @sm: row  max-width: 640px @md: 768px @lg: 960px]>
@@ -47,19 +43,20 @@ tag home-page
 							"😁"
 						<p>
 							"I enjoy live streaming open sources projects on my Twitch Channel {<a[bg: purple c: white br: 0.3rem p: 1 3 td: none] href="https://www.twitch.tv/alemayhu"> "alemayhu"}."							
-							"You should check it out 😉"							
-						<p[mb: 0]> "You can also find me on "
-						<ul[mt: 0 list-style: square]>
-							<li> <a href="https://dev.to/scanf"> "DEV"
-							<li> <a href="https://github.com/scanf"> "GitHub"						
+							<span> "You should check it out 😉"
+				<p> 
+					"I started out learning HTML / Python before moving on to C++ in order to make video games but left that to make a living with iOS applications. "
+					"I've also dabbled in Android, Linux Networking, sysadmin stuff and security. "
+				<p[fs: xl @sm: 2xl fw: bold ta: center p: 4rem]> "My dream is to build amazing things that provide value to many people"
+
 			<section>
 				<div>
 					<h2> "🕺🏾Passion Projects"
 					<p>
 						"My coach is training me to run a 10K under 40 minutes. So dreaming about doing a sub40 10k before Christmas hopefully 😅"
 					<p>
-						"For my coding projects, I am spending a lot of time helping out students to create flashcards better and easier with Anki. "
-						"It's really important for me that these tools are affordable to students, so I make them 100% free. No cost to usage for anyone anywhere in the world! "
+						"For my coding projects, I am spending a lot of time helping out medicine students to create flashcards better and easier with Anki. "
+						"It's really important for me that these tools are affordable to students, so I make them 100% free. No cost to usage for anyone anywhere in the world 🌎! "
 						"My most popular project used by medicine students worldwide is:"
 					<div[d: flex j: center]>
 						<a.n2a href="https://notion.2anki.net"> "notion2Anki"

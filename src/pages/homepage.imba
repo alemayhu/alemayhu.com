@@ -46,7 +46,7 @@ tag home-page
 				<div[d: flex m: -.75rem fld: column @sm: row  max-width: 640px @md: 768px @lg: 960px]>
 					if let portrait = portrait
 						<figure>
-							<img[w: {portrait.width} h: {portrait.height} m: 1rem 3rem] .image src=portrait.src alt="x">									
+							<img[w: {portrait.width} h: {portrait.height} m: 1rem 3rem] .image src=portrait.src alt="x" loading="lazy">									
 							<figcaption[ta: center]> "📸 {portrait.author}"
 										
 					<div[d: block flb: 0 flg: 1 fls: 1 p: .75rem]>

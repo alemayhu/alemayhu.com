@@ -5,6 +5,13 @@ let fields = [
 		{ title: "👨🏾‍💻 GitHub", value: "scanf", href: "https://github.com/scanf" }
 ]
 
+let portraits = [
+	{ author: "Lasse Rypdal", src: "/assets/portrait_1.jpeg", width: "256px", height: "341.33px" }
+	{ author: "Christopher Gulbrandsen", src: "/assets/portrait_2.jpeg", width: "256px", height: "341.33px"}
+	{ author: "Per Christian Lind", src: "/assets/portrait_3.jpg", width: "320px", height: 'none'}
+	{ author: "Per Christian Lind", src: "/assets/portrait_4.jpg", width: "320px", height: 'none'}
+]
+
 tag home-page
 
 	css h2 w: bold  fs: l @sm: 4xl
@@ -23,9 +30,7 @@ tag home-page
 	prop github_sponsor = 'https://github.com/sponsors/alemayhu/card'
 
 	get portrait
-		let image = Math.round(Math.random() * 2) 
-		image = image > 2 or image < 1 ? 1 : image
-		"/assets/portrait_{image}.jpeg"
+		portraits[Math.floor(Math.random() * portraits.length)]
 
 	<self>
 		<section>
@@ -39,7 +44,11 @@ tag home-page
 				<p>					
 					"Now a days I work as Web Developer but on my own time I am learning about web design, teaching, {<a href="https://imba.io"> "Imba"} and running."
 				<div[d: flex m: -.75rem fld: column @sm: row  max-width: 640px @md: 768px @lg: 960px]>
-					<img[w: 256px h: 341.33px m: 1rem 3rem] .image src=portrait>
+					if let portrait = portrait
+						<figure>
+							<img[w: {portrait.width} h: {portrait.height} m: 1rem 3rem] .image src=portrait.src alt="x">									
+							<figcaption[ta: center]> "📸 {portrait.author}"
+										
 					<div[d: block flb: 0 flg: 1 fls: 1 p: .75rem]>
 						<p>
 							"You read right, running❣️ More recently I have discovered the joy of running 🏃‍♀️ "

@@ -22,6 +22,11 @@ tag home-page
 
 	prop github_sponsor = 'https://github.com/sponsors/alemayhu/card'
 
+	get portrait
+		let image = Math.round(Math.random() * 2) 
+		image = image > 2 or image < 1 ? 1 : image
+		"/assets/portrait_{image}.jpeg"
+
 	<self>
 		<section>
 			<div>
@@ -34,7 +39,7 @@ tag home-page
 				<p>					
 					"Now a days I work as Web Developer but on my own time I am learning about web design, teaching, {<a href="https://imba.io"> "Imba"} and running."
 				<div[d: flex m: -.75rem fld: column @sm: row  max-width: 640px @md: 768px @lg: 960px]>
-					<img[w: 256px h: 341.33px m: 1rem 3rem] .image src="/assets/portrait.jpeg">
+					<img[w: 256px h: 341.33px m: 1rem 3rem] .image src=portrait>
 					<div[d: block flb: 0 flg: 1 fls: 1 p: .75rem]>
 						<p>
 							"You read right, running❣️ More recently I have discovered the joy of running 🏃‍♀️ "

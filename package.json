@@ -2,7 +2,7 @@
   "name": "alemayhu.com",
   "version": "1.0.0",
   "description": "My personal and professional website",
-  "repository": "git@gitlab.com:scanf/alemayhu.com.git",
+  "repository": "git@gitlab.com:aalemayhu/alemayhu.com.git",
   "author": "Alexander Alemayhu <alexander@alemayhu.com>",
   "dependencies": {
     "imba": "^2.0.0-alpha.90",

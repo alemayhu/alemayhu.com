@@ -2,7 +2,7 @@ let fields = [
 		{ title: "📧 Email", value: "alexander@alemayhu.com", href: "mailto:alexander@alemayhu.com"},
 		{ title: "📱 Phone", value: "＋４７４０１０４３８７", href: "tel:+4740104387"},
 		{ title: "🐦 Twitter", value: "@aalemayhu", href: "https://twitter.com/AAlemayhu"},
-		{ title: "👨🏾‍💻 GitHub", value: "scanf", href: "https://github.com/scanf" }
+		{ title: "👨🏾‍💻 GitHub", value: "aalemayhu", href: "https://github.com/aalemayhu" }
 ]
 
 let portraits = [
@@ -43,7 +43,7 @@ tag home-page
 				<ul[list-style: none d: flex jc: space-between max-width: 480px fld: column ai: center]>
 					<li> <span[fs: xl]> "I'm a"
 					<li> <a.box.round[bg:#333 c:white] href="https://github.com/aalemayhu"> "Open Source Developer"
-					<li> <a.box.round[bg:#6441a5 c:white] href="https://twitch.tv/aalemayhu"> "Twitch streamer"
+					<li> <a.box.round[bg:#6441a5 c:white] href="https://twitch.tv/alemayhu"> "Twitch streamer"
 					<li> <a.box.round[bg:#FF0000 c:white] href="https://yt.alemayhu.com"> "Youtuber"
 				<p[mt: 0 pt: 0]> "I love learning new things especially about spoken and programming languages. "
 

@@ -1,18 +1,18 @@
 [
- {
-  "username": "scanf",
-  "name": "Alexander Alemayhu",
-  "userimg": "https://avatars1.githubusercontent.com/u/925044?v=4",
-  "sort": "created",
-  "order": "asc",
-  "includeFork": false,
-  "theme": "light.css",
-  "types": [
-   "owner"
-  ],
-  "twitter": "@aalemayhu",
-  "linkedin": null,
-  "medium": null,
-  "dribbble": null
- }
+    {
+        "username": "aalemayhu",
+        "name": "Alexander Alemayhu",
+        "userimg": "https://avatars1.githubusercontent.com/u/925044?v=4",
+        "sort": "created",
+        "order": "asc",
+        "includeFork": false,
+        "theme": "light.css",
+        "types": [
+            "owner"
+        ],
+        "twitter": "@aalemayhu",
+        "linkedin": null,
+        "medium": null,
+        "dribbble": null
+    }
 ]

@@ -85,9 +85,9 @@ tag home-page
 				<div>
 					<h2[mt: 0]> "🎗Support Me"
 					<p> "If you like any of my projects you can support me financially on Patreon and / or GitHub."
-					<.has-text-centered>
+					<div.[ta: center]>
 						<a href="https://patreon.com/alemayhu"> <img src="become_a_patron_button.png">
-					<div[my: 2]>
+					<div[my: 2 ta: center]>
 						<iframe[d: none @sm: block] src=github_sponsor title="Sponsor alemayhu" height="225" width="600" style="border: 0;">                            
 						<div[mb: 2rem d: inline-block @sm: none]>
 							<a[td: none p: 2 bg: #fafbfc border-color: rgba(27,31,35,.15) br: 6px bd: rgba(27, 31, 35, 0.15)] href=github_sponsor> "❤️ Become a GitHub Sponsor"

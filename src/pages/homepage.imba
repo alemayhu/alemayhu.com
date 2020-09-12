@@ -42,9 +42,9 @@ tag home-page
 				<p[mb: 0]> "Hei there 👋🏾 I was born in 🇰🇪Kenya (Nairobi) but now I live in 🇳🇴Norway (Oslo) 🤩"
 				<ul[list-style: none d: flex jc: space-between max-width: 480px fld: column ai: center]>
 					<li> <span[fs: xl]> "I'm a"
-					<li> <a.box.round[bg:#333 c:white] href="https://github.com/aalemayhu"> "Open Source Developer"
-					<li> <a.box.round[bg:#6441a5 c:white] href="https://twitch.tv/alemayhu"> "Twitch streamer"
 					<li> <a.box.round[bg:#FF0000 c:white] href="https://yt.alemayhu.com"> "Youtuber"
+					<li> <a.box.round[bg:#6441a5 c:white] href="https://twitch.tv/alemayhu"> "Twitch streamer"
+					<li> <a.box.round[bg:#333 c:white] href="https://github.com/aalemayhu"> "Open Source Developer"
 				<p[mt: 0 pt: 0]> "I love learning new things especially about spoken and programming languages. "
 
 				<p> "I have been writing code since 2010 and started working professionally as a developer in 2011."

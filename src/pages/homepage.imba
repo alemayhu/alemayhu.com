@@ -100,4 +100,3 @@ tag home-page
 						<p>
 							field.title + " "
 							<a href=field.href> field.value
-					<p[bg: yellow400 p: 4 br: 0.3rem d: inline-block]> "Please note that I am not interested in consulting gigs or job offers."	

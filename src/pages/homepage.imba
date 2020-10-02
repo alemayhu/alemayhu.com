@@ -39,9 +39,9 @@ tag home-page
 			<div>
 				<a[td: none m: 0 p: 0] href="/"> <h1> "Alexander Alemayhu's Website"
 				<hr>
-				<p[mb: 0]> "Hei there 👋🏾 I was born in 🇰🇪Kenya (Nairobi) but now I live in 🇳🇴Norway (Oslo) 🤩"
+				<p[mb: 0]> "Hei there 👋🏾 I was born in 🇰🇪 Nairobi, but now I live in 🇳🇴 Oslo 🤩"
 				<ul[list-style: none d: flex jc: space-between max-width: 480px fld: column ai: center]>
-					<li> <span[fs: xl]> "I'm a"
+					<li> <span[fs: xl]> "⭐️"
 					<li> <a.box.round[bg:#FF0000 c:white] href="https://yt.alemayhu.com"> "Youtuber"
 					<li> <a.box.round[bg:#6441a5 c:white] href="https://twitch.tv/alemayhu"> "Twitch streamer"
 					<li> <a.box.round[bg:#333 c:white] href="https://github.com/aalemayhu"> "Open Source Developer"

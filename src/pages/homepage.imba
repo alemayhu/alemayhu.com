@@ -42,7 +42,7 @@ tag home-page
 				<p[mb: 0]> "Hei there 👋🏾 I was born in 🇰🇪 Nairobi, but now I live in 🇳🇴 Oslo 🤩"
 				<ul[list-style: none d: flex jc: space-between max-width: 480px fld: column ai: center]>
 					<li> <span[fs: xl]> "⭐️"
-					<li> <a.box.round[bg:#FF0000 c:white] href="https://yt.alemayhu.com"> "Youtuber"
+					<li> <a.box.round[bg:#FF0000 c:white] href="https://www.youtube.com/channel/UCVuQ9KPLbb3bfhm-ZYsq-bQ?sub_confirmation=1"> "Small Youtuber"
 					<li> <a.box.round[bg:#6441a5 c:white] href="https://twitch.tv/alemayhu"> "Twitch Affiliate"
 					<li> <a.box.round[bg:#333 c:white] href="https://github.com/aalemayhu"> "Open Source Developer"
 				<p[mt: 0 pt: 0]> "I love learning new things especially about spoken and programming languages. "

@@ -44,7 +44,7 @@ tag home-page
 					<li> <span[fs: xl]> "⭐️"
 					<li> <a.box.round[bg:#FF0000 c:white] href="https://www.youtube.com/channel/UCVuQ9KPLbb3bfhm-ZYsq-bQ?sub_confirmation=1"> "Small Youtuber"
 					<li> <a.box.round[bg:#6441a5 c:white] href="https://twitch.tv/alemayhu"> "Twitch Affiliate"
-					<li> <a.box.round[bg:#333 c:white] href="https://github.com/aalemayhu"> "Open Source Developer"
+					<li> <a.box.round[bg:#333 c:white] href="https://github.com/aalemayhu"> "Web Developer"
 				<p[mt: 0 pt: 0]> "I love learning new things especially about spoken and programming languages. "
 
 				<p> "I have been writing code since 2010 and started working professionally as a developer in 2011."

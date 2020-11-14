@@ -37,7 +37,7 @@ tag home-page
 	<self>
 		<section>
 			<div>
-				<a[td: none m: 0 p: 0] href="/"> <h1> "Alexander Alemayhu's Website"
+				<a[td: none m: 0 p: 0] href="/"> <h1> "Alexander Alemayhu"
 				<hr>
 				<p[mb: 0]> "Hei there 👋🏾 I was born in 🇰🇪 Nairobi, but now I live in 🇳🇴 Oslo 🤩"
 				<ul[list-style: none d: flex jc: space-between max-width: 480px fld: column ai: center]>

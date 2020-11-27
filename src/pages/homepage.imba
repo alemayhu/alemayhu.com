@@ -100,3 +100,11 @@ tag home-page
 						<p>
 							field.title + " "
 							<a href=field.href> field.value
+			<section>
+				<div>
+					<h2[mt: 0]> "Join My Discord"
+					<hr>
+					<p> "I am very active on Discord and check it on a daily basis, join the conversation!"
+					<div[ta: center]>
+						<a.box.round[bg:#7289DA bg@hover: blue4 c:white] href="https://discord.gg/PSKC3uS"> "Discord"
+

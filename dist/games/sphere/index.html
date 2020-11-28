@@ -33,13 +33,17 @@
 <script src='game.js'></script>
 <style>
   body { background: #000; margin: 0; padding: 0; font-family: Arial, sans-serif; }
-  b { color: #fff !important; }
+  b, p { color: #fff !important; }
   #game-canvas { cursor: crosshair; }
   #credits { text-align: center; color: #aaa; }
   #credits a { color: #777; text-decoration: underline; }
   #credits a:hover { color: #aaa; text-decoration: underline; }
   #title { color: #FF0000; }
   #stats { color: #aaa; text-align: center; font-weight: bold;}
+  p { text-align: center; }
+  p a {
+    color: #777;
+  }
 </style>
 <title>Red giant by Alexander Alemayhu</title>
 <body onload='GAME_Init ();'>
@@ -48,4 +52,5 @@
   <div id='credits'><div id='title'><strong>Red giant</strong></div><br >
     <div id='stats'>Health: <span id='radius'>0</span></div>
     <br>Use arrow <i>keys</i> to move.<br>You are the red circle.<br>Avoid all other circles except yourself and the green ones.<br><br>&copy; 2012 <a href='mailto:alexander.alemayhu@googlemail.com'>Alexander Alemayhu</a></div>
+    <p>This game was made for Ludum Dare 24, read the comments I received <a href="http://ludumdare.com/compo/ludum-dare-24/?action=preview&uid=11316">here</a></p>
 </body>

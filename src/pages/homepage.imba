@@ -68,7 +68,7 @@ tag home-page
 				<p> 
 					"I started out learning HTML / Python before moving on to C++ in order to make video games but left that to make a living with iOS applications. "
 					"I've also dabbled in Android, Linux Networking, sysadmin stuff and security. "
-				<p[fs: xl @sm: 2xl fw: bold ta: center p: 4rem]> "My dream is to build amazing things that provide insane value to many people"
+				<p[fs: xl @sm: xl fw: bold ta: center]> "My dream is to build amazing things that provide insane value to many people"
 
 			<section>
 				<div>

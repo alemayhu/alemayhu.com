@@ -13,10 +13,10 @@ let portraits = [
 
 tag home-page
 
-	css h2 w: bold  fs: l @sm: 4xl
-	css h1 c: #363636 fs: 2rem fw: 600 lh: 1.125 fs: xl @sm: 5xl
+	css h2 w: bold  fs: l @sm: 4xl m: 0
+	css h1 c: #363636 fs: 2rem fw: 600 fs: xl @sm: 5xl  m: 0
 	css div max-width: 960px @sm: 960px m: 0 auto
-	css p c: #4a4a4a fs: 1.25rem fwe: 400 lh: 1.25 mb: 1.5rem max-width: 640px @md: 768px @lg: 960px
+	css p c: #4a4a4a fs: 1.25rem fwe: 400  max-width: 640px @md: 768px @lg: 960px mt: 0
 
 	css body fld: column d: flex h: 100vh ff: Baloo 2, BlinkMacSystemFont, Helvetica Neue, Helvetica
 
@@ -36,7 +36,7 @@ tag home-page
 	<self>
 		<section>
 			<div>
-				<a[td: none m: 0 p: 0] href="/"> <h1> "Alexander Alemayhu"
+				<a[td: none m: 0 p: 0 ta: center] href="/"> <h1> "Alexander Alemayhu's Website"
 				<hr>
 				<p[mb: 0]> "Hei there 👋🏾 I was born in 🇰🇪 Nairobi, but now I live in 🇳🇴 Oslo 🤩"
 				<ul[list-style: none d: flex jc: space-between max-width: 480px fld: column ai: center]>
@@ -44,7 +44,7 @@ tag home-page
 					<li> <a.box.round[bg:#FF0000 c:white] href="https://www.youtube.com/channel/UCVuQ9KPLbb3bfhm-ZYsq-bQ?sub_confirmation=1"> "Small Youtuber"
 					<li> <a.box.round[bg:#6441a5 c:white] href="https://www.twitch.tv/alexanderalemayhu"> "Twitch Affiliate"
 					<li> <a.box.round[bg:#333 c:white] href="https://github.com/aalemayhu"> "Web Developer"
-				<p[mt: 0 pt: 0]> "I love learning new things especially about spoken and programming languages. "
+				<p> "I love learning new things especially about spoken and programming languages. "
 
 				<p> "I have been writing code since 2010 and started working professionally as a developer in 2011."
 				<p>					
@@ -88,7 +88,7 @@ tag home-page
 					<div.[ta: center]>
 						<a href="https://patreon.com/alemayhu"> <img src="become_a_patron_button.png">
 					<div[my: 2 ta: center]>
-						<iframe[d: none @sm: block] src=github_sponsor title="Sponsor alemayhu" height="225" width="600" style="border: 0;">                            
+						<iframe[d: none @sm: block m: auto] src=github_sponsor title="Sponsor alemayhu" height="225" width="600" style="border: 0;">                            
 						<div[mb: 2rem d: inline-block @sm: none]>
 							<a[td: none p: 2 bg: #fafbfc border-color: rgba(27,31,35,.15) br: 6px bd: rgba(27, 31, 35, 0.15)] href=github_sponsor> "❤️ Become a GitHub Sponsor"
 			<section>

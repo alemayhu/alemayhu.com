@@ -1,6 +1,5 @@
 let fields = [
 		{ title: "📧 Email", value: "alexander@alemayhu.com", href: "mailto:alexander@alemayhu.com"},
-		{ title: "📱 Phone", value: "＋４７４０１０４３８７", href: "tel:+4740104387"},
 		{ title: "🐦 Twitter", value: "@aalemayhu", href: "https://twitter.com/AAlemayhu"},
 		{ title: "👨🏾‍💻 GitHub", value: "aalemayhu", href: "https://github.com/aalemayhu" }
 ]

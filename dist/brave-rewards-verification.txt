@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: alemayhu.com
+Token: 0d7e3ac87dd61f0d0174e5885d2dfa85ec90d5e3e0f22454a5bfbadcd3742fc6

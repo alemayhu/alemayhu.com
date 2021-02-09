@@ -63,7 +63,7 @@ tag home-page
 							"😁"
 						<p>
 							"I enjoy live streaming open sources projects on my Twitch Channel. You should check it out 😉"
-						<a[bg: purple c: white br: 0.3rem p: 1 3 td: none] href="https://www.twitch.tv/alemayhu"> "alemayhu"
+						<a[bg: purple c: white br: 0.3rem p: 1 3 td: none] href="https://www.twitch.tv/alexanderalemayhu"> "alemayhu"
 						<iframe src="https://player.twitch.tv/?channel=alexanderalemayhu&parent=alemayhu.com&autoplay=false" height="320px" width="640px" allowfullscreen="allowfullscreen">
 				<p> 
 					"I started out learning HTML / Python before moving on to C++ in order to make video games but left that to make a living with iOS applications. "
